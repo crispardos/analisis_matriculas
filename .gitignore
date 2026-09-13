@@ -8,3 +8,13 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secretos
+.env
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
