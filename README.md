@@ -60,9 +60,8 @@ y no un Python global.
 ## Estructura del repositorio
 
 ```
-├── raw/          # Datos originales (xlsx, incluidos en el repo)
 ├── docs/         # Diccionario de variables (PDF)
-├── notebooks/    # Análisis en Jupyter
+├── notebooks/    # Análisis en Jupyter y datos
 ├── src/          # Código del paquete
 └── pyproject.toml / uv.lock   # Definición del entorno
 ```
