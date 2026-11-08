@@ -18,3 +18,5 @@ wheels/
 # Sistema operativo
 .DS_Store
 Thumbs.db
+
+docs
