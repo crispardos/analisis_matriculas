@@ -6,7 +6,7 @@ readme = "README.md"
 authors = [
     { name = "crispardos"}
 ]
-requires-python = ">=3.14"
+requires-python = ">=3.14.10"
 dependencies = [
     "ipykernel>=7.3.0",
     "matplotlib>=3.11.1",
@@ -28,3 +28,7 @@ dev = [
     "nbclient>=0.11.0",
     "nbformat>=5.11.1",
 ]
+
+[tool.uv]
+python-preference = "only-system"
+python-downloads = "never"
